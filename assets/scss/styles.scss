@@ -211,11 +211,15 @@ body {
     }
 
     .skills__title {
-        font-size: 0.813rem;
+        font-size: $h3-font-size;
+    }
+
+    .skills__icon {
+        font-size: $h3-font-size;
     }
 
     .skills__content {
-        font-size: 0.75rem;
+        font-size: $smaller-font-size
     }
 
     .qualification__data {
@@ -263,6 +267,10 @@ body {
 
     .skills__content {
         margin: 0 2rem;
+    }
+
+    .skills__list {
+        padding-left: 2.8rem;
     }
 
     .qualification__sections {
