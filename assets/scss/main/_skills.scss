@@ -1,0 +1,101 @@
+/*==================== SKILLS ====================*/
+.skills {
+    transition: .2s;
+
+    &__container {
+        row-gap: 0;
+    }
+
+    &__content {
+        transition: 0.5s ease-in-out;
+        box-shadow: 0px 8px 9px 0px rgba(138, 136, 136, 0.1);
+        overflow: hidden;
+        padding: 2rem;
+        border-radius: .5rem;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        margin-bottom: $m-2-5;
+    }
+
+    &__icon,
+    &__arrow {
+        font-size: 2rem;
+        color: $first-color;
+    }
+
+    &__icon {
+        margin-right: $m-0-75;
+    }
+
+    &__title {
+        transition: .3s;
+        font-size: $h2-font-size;
+        font-weight: $font-semi-bold;
+        color: $title-color;
+
+        &:hover {
+            color: $first-color-alt;
+        }
+    }
+
+    &__subtitle {
+        font-size: $small-font-size;
+        color: $text-color;
+    }
+
+    &__arrow {
+        transition: .4s;
+        margin-left: auto;
+    }
+
+    &__list {
+        transition: .3s;
+        row-gap: 1.5rem;
+        padding-left: 2.7rem;
+    }
+
+    &__titles {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: $m-0-5;
+    }
+
+    &__name {
+        font-size: $normal-font-size;
+        font-weight: $font-medium;
+    }
+
+    &__bar,
+    &__percentage {
+        height: 5px;
+        border-radius: .25rem;
+    }
+
+    &__bar {
+        background-color: $first-color-lighter;
+    }
+
+    &__percentage {
+        display: block;
+        background-color: $first-color;
+    }
+
+    &__html {
+        width: 75%;
+    }
+
+    &__css {
+        width: 60%;
+    }
+
+    &__js {
+        width: 25%;
+    }
+
+    &__react {
+        width: 10%;
+    }
+}

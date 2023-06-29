@@ -1,0 +1,59 @@
+/*==================== FOOTER ====================*/
+.footer {
+    transition: .2s;
+    padding-top: 2rem;
+
+    &__container {
+        row-gap: 3rem;
+    }
+
+    &__bg {
+        background-color: $first-color;
+        padding: 2rem 0 3rem;
+    }
+
+    &__title {
+        font-size: $h1-font-size;
+        margin-bottom: $m-0-25;
+    }
+
+    &__subtitle {
+        font-size: $small-font-size;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+
+    &__link:hover {
+        transition: .1s;
+        color: $first-color-lighter;
+    }
+
+    &__social {
+        transition: .1s;
+        font-size: 1.25rem;
+        margin-right: $m-1-5;
+        color: #FFF;
+
+        &:hover {
+            color: $first-color-lighter;
+        }
+    }
+
+    &__copy {
+        font-size: $smaller-font-size;
+        text-align: center;
+        color: $body-color;
+        margin-top: $m-3;
+    }
+
+    &__title,
+    &__subtitle,
+    &__link,
+    &__social {
+        color: #FFF;
+    }
+}
